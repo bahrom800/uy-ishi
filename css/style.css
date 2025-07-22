@@ -1,0 +1,78 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar{
+    border: 2px solid rgb(207, 209, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar--card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.header--btn {
+    border: none;
+    display: none;
+}
+@media (max-width:505px) {
+    .navbar--card{
+        display: none;
+    }
+    .header--btn{
+        display: flex;
+    }
+}
+.main--section{
+ padding-top: 80px;
+ padding-bottom: 50px;
+
+ 
+}
+.navbar--card , a{
+    color: rgb(250, 4, 86);
+}
+.section--btn{
+    background-color: rgba(3, 98, 251, 0.526);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: white;
+    border: none;
+}
+#home{
+    background-image: url(../pages/glavni.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card--main{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+};
+.main--btn{
+    margin-left: 580px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(3, 98, 251, 0.526);
+    color: white;
+    padding: 7px 20px;
+};
